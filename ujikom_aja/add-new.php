@@ -70,7 +70,7 @@ if (isset($_POST["submit"])) {
             </div>
 
               <div class="mb-3">
-               <label class="form-label"></label>
+               <label class="form-label">Tahun Terbit</label>
                <input type="date" class="form-control" name="tahun_terbit" placeholder="Tahun Terbit">
             </div>
 

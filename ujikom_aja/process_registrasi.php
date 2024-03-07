@@ -1,7 +1,7 @@
 <?php
 // Ambil data dari formulir jika ada
-if(isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password'])) {
-    $username_input = $_POST['username']; // Ganti nama variabelnya agar tidak bentrok
+if(isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['alamat']) && isset($_POST['nama_lengkap'])) {
+    $username_input = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
     $alamat = $_POST['alamat'];
@@ -9,7 +9,7 @@ if(isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password
     $role = 'user'; // Set nilai role secara langsung
     
     // Validasi data (contoh sederhana, Anda mungkin memerlukan validasi yang lebih lengkap)
-    if(empty($username_input) || empty($email) || empty($password)) {
+    if(empty($username_input) || empty($email) || empty($password) || empty($alamat) || empty($nama_lengkap)) {
         echo "Harap isi semua field.";
         exit;
     }

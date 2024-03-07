@@ -58,9 +58,9 @@
     <section class="home text-center">
     <div class="home-text">
             <h5>Let's</h5>
-            <h1>Digital Library <br> ilham</h1>
+            <h1>Perpustakaan <br>Digital</h1>
             <p>"Temukan Dunia Pengetahuan di Ujung Jari Anda:
-                 Digital Library ilham Membawa Anda ke Dunia Buku Digital."</p>
+                 Perpustakaan Digital Membawa Anda ke Dunia Buku Digital."</p>
                 <a href="login.php" class="btn">Get Started</a>
         </div>
 

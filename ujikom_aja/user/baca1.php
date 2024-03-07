@@ -13,7 +13,7 @@
      </header>
      <nav>
         <ul>
-            <li><a href="#">Beranda</a></li>
+            <li><a href="index.php">Baca</a></li>
            <div class="topbar-divider d-none d-sm-block"></div>
 
                         <!-- Nav Item - User Information -->

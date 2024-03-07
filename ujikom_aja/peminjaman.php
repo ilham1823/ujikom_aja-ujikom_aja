@@ -87,9 +87,6 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.php">Login</a>
-                        <a class="collapse-item" href="registrasi.php">Register</a>
                         <a class="collapse-item" href="laporann.php">Laporan</a>
                     </div>
                 </div>
@@ -99,7 +96,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                List Buku
+               Ulasan
             </div>
 
 
@@ -108,7 +105,7 @@
                 <a class="nav-link" href="ulasan.php">
                     <i class="fas fa-fw fa-file"></i>
                     <!-- Ganti 'fa-chart-area' dengan 'fa-file' untuk ikon dokumen -->
-                    <span>List Buku</span>
+                    <span>Ulasan</span>
                 </a>
             </li>
 

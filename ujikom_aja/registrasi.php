@@ -83,7 +83,7 @@ include('db_conn.php');
                                         <input type="text" class="form-control form-control-user" id="inputFullName" placeholder="Full Name" name="nama_lengkap" required>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control form-control-user" id="inputAddress" placeholder="Address" name="	alamat" required></textarea>
+                                    <textarea class="form-control form-control-user" id="inputAddress" placeholder="Address" name="alamat" required></textarea>
                                     </div>
                                     <input type="hidden" name="role" value="peminjam">
                                     <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>

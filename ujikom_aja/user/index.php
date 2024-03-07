@@ -75,13 +75,63 @@
                 <div class="button">
                     <button id="pinjamBtn3" class="btn" onclick="ubahTombol('pinjamBtn3')">Pinjam</button>
                     <button class="btn" onclick="ToDetail()">Baca</button>
-                    
                 </div>
             </div>
         </div>
     </div>
 </div>
     
+<div class="container">
+    <div class="library">
+       
+        <div class="pos">
+            <div class="card">
+                <div class="card-image">
+                    <img src="hantu.jpg" alt="Judul Buku">
+                </div>
+                <div class="card-details">
+                    <h3 class="book-title">House Screts</h3>
+                    <p class="book-details">Penulis : Fadel </p>
+                    <p class="book-details">Tahun Terbit : 2020 </p>
+                </div>
+                <div class="button">
+                    <button id="pinjamBtn1" class="btn" onclick="ubahTombol('pinjamBtn1')">Pinjam</button>
+                    <button class="btn" onclick="aDetail()">Baca</button>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="perang.jpg" alt="Judul Buku">
+                </div>
+                <div class="card-details">
+                    <h3 class="book-title">Perang Dunia</h3>
+                    <p class="book-details">Penulis : Alex </p>
+                    <p class="book-details">Tahun Terbit : 1914-1918 </p>
+                </div>
+                <div class="button">
+                    <button id="pinjamBtn2" class="btn" onclick="ubahTombol('pinjamBtn2')">Pinjam</button>
+                    <button class="btn" onclick="oDetail()">Baca</button>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="si dul.jpg" alt="Judul Buku">
+                </div>
+                <div class="card-details">
+                    <h3 class="book-title">Si Dul anak betawi</h3>
+                    <p class="book-details">Penulis : Azis </p>
+                    <p class="book-details">Tahun Terbit : 2013 </p>
+                </div>
+                <div class="button">
+                    <button id="pinjamBtn3" class="btn" onclick="ubahTombol('pinjamBtn3')">Pinjam</button>
+                    <button class="btn" onclick="etail()">Baca</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     function ubahTombol(id) {
@@ -91,6 +141,7 @@
         } else {
             button.innerHTML = "Dikembalikan";
         }
+        
     }
 
 function Detail() {
@@ -105,7 +156,18 @@ function Detail() {
        
        window.location.href = "baca2.php";
    }
-    
+   function aDetail() {
+       
+       window.location.href = "baca3.php";
+   }
+   function oDetail() {
+       
+       window.location.href = "baca4.php";
+   } 
+   function etail() {
+       
+       window.location.href = "baca5.php";
+   }
     function goToReview() {
         window.location.href = "review.php";
 

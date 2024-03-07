@@ -34,16 +34,13 @@
                <h2>Selamat membaca</h2>
               
                
-             
-                    <img src="maling.jpg" alt="Judul Buku">
-                    <p>Cerita ini berkisah tentang seorang anak yang durhaka kepada ibunya, 
-                        sehingga dikutuk menjadi batu. Kisah Malin Kundang sangat populer, 
-                        sehingga banyak diadaptasi ke dalam bentuk seni lainnya. 
-                        Mulai dari drama berjudul Malin Kundang oleh Wisran Hadi pada 1978,
-                         sinetron dengan judul yang sama pada 2005-2006, online game rancangan IAIN Surakarta yang rilis pada 2016,
-                          sampai menjadi tema Musikal di Rumah Aja yang digarap oleh Indonesia Kaya pada 2020. Selain itu, 
-                          kisah legendaris ini turut menginspirasi seniman Dasril Bayras dan Ibenzani Usman untuk membuat relief batu berbentuk pecahan kapal dan sosok manusia yang menggambarkan Malin Kundang.
-                          Karya ini terletak di Pantai Air Manis dan telah menjadi salah satu daya tarik turis sejak 1980-an.</p>
+               
+                <div class="card-image">
+                    <img src="perang.jpg" alt="Judul Buku">
+                </div>
+               
+                    <p>Pembunuhan Franz-Ferdinand menyebabkan adanya ketegangan politik yang dinamakan Krisis Juli. Krisis tersebut berubah menjadi Perang Dunia I saat kerajaan Austria-Hongaria memutuskan untuk menyerang Serbia-Bosnia pada 28 Juli 1914. Serangan yang dilakukan oleh Austria Hongaria memicu Rusia untuk merebut Serbia-Bosnia dari Austria-Hongaria. Ketegangan yang terjadi di Eropa Timur ini dimanfaatkan oleh Jerman untuk melancarkan serangan ke Perancis dan Rusia. Disisi lain, Inggris sebagai aliansi Sekutu turut menyatakan perang terhadap Jerman pada 4 Agustus 1914. Dalam buku The Great War 1914-1918 (1998) karya Spencer C Tucker, disebutkan bahwa Perang Dunia I juga melibatkan negara-negara diluar Eropa. Amerika Serikat, Australia, Kanada dan Selandia Baru turut bergabung dalam Aliansi Sekutu melawan Jerman. Disisi lain, Turki Utsmani turut terjun dalam Perang Dunia I dengan bergabung bersama Aliansi Sentral. Keinginan untuk merebut kembali bekas wilayahnya di kawasan Eropa Timur menjadi alasan utama Turki Utsmani mengikuti Perang Dunia I.
+Artikel ini telah tayang di Kompas.com dengan judul "Sejarah Perang Dunia I (1914-1918)", </p>
                 </div>
                
             
