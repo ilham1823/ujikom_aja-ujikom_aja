@@ -197,26 +197,51 @@
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
-                  <!DOCTYPE html>
-<html lang="en">
+                    <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laporan </title> 
+    <title>Laporan Buku</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a.button {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 
-<a href="generate_pdf.php" target="_blank">Unduh Laporan PDF</a>
+<h2>Laporan Buku</h2>
 
-<table border="1">
+<a href="generate_pdf.php" class="button" target="_blank">Unduh Laporan PDF</a>
+
+<table>
     <thead>
         <tr>
-          <th>ID</th>
-          <th>Nama Buku </th>
-          <th>Nama peminjam</th>
-          <th>Tanggal Peminjam</th>
-          <th>Status</th>
+            <th>ID</th>
+            <th>Nama Buku</th>
+            <th>Nama Peminjam</th>
+            <th>Tanggal Peminjaman</th>
+            <th>Status</th>
         </tr>
     </thead>
     <tbody>
@@ -236,6 +261,9 @@
         ?>
     </tbody>
 </table>
+
+</body>
+</html>
 
 </body>
 </html>

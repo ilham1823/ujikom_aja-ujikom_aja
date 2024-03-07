@@ -257,16 +257,51 @@
 </head>
 <body>
 
-<a href="baton.php" target="_blank">Unduh Laporan PDF</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laporan Buku</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a.button {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-<table border="1">
+<h2>Laporan Buku</h2>
+
+<a href="baton.php" class="button" target="_blank">Unduh Laporan PDF</a>
+
+<table>
     <thead>
         <tr>
-          <th>ID</th>
-          <th>Nama Buku </th>
-          <th>Nama peminjam</th>
-          <th>Tanggal Peminjam</th>
-          <th>Status</th>
+            <th>ID</th>
+            <th>Nama Buku</th>
+            <th>Nama Peminjam</th>
+            <th>Tanggal Peminjaman</th>
+            <th>Status</th>
         </tr>
     </thead>
     <tbody>
@@ -286,6 +321,10 @@
         ?>
     </tbody>
 </table>
+
+</body>
+</html>
+
 
 </body>
 </html>

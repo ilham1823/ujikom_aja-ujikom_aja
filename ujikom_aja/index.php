@@ -120,7 +120,7 @@
 
     <!-- Footer -->
     <footer class="bg-primary text-black text-center pb-5">
-        <p>created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/xralsaf/" class="text-white fw-bold">perpustakaan ilham</a>2024</p>
+        <p>created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/il.hmdrxy18?igsh=a3JyMXAyNzU5em00" class="text-white fw-bold">perpustakaan ilham</a>2024</p>
     </footer>
     <!-- Akhir Footer -->
 
